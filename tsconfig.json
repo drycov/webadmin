@@ -2,12 +2,11 @@
     "compilerOptions": {
       "target": "ES6",
       "module": "ESNext",
-      "outDir": "./build",
       "rootDir": "./",
       "strict": true,
       "esModuleInterop": true
     },
     "include": ["/*.ts", "index.ts"],
-    "exclude": ["node_modules", "build"]
+    "exclude": ["node_modules"]
   }
   
