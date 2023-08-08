@@ -14,14 +14,14 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get("/", (req, res) => {
-    console.log(req)
-    res.sendFile(path.join(__dirname, "public", "index.html"));
-});
-app.post("/", (req, res) => {
-    console.log(req)
-    res.sendFile(path.join(__dirname, "public", "index.html"));
-});
+// app.get("/", (req, res) => {
+//     console.log(req)
+//     res.sendFile(path.join(__dirname, "public", "index.html"));
+// });
+// app.post("/", (req, res) => {
+//     console.log(req)
+//     res.sendFile(path.join(__dirname, "public", "index.html"));
+// });
 
 
 const PORT = process.env.PORT || 3000;
